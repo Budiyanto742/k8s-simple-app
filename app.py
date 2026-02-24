@@ -9,7 +9,7 @@ def hello():
     db_host = os.getenv('DB_HOST', 'postgres-db')
     db_name = os.getenv('DB_NAME', 'postgres')
     db_user = os.getenv('DB_USER', 'postgres')
-    db_pass = os.getenv('DB_PASS', 'password_anda') # Sesuaikan dengan password DB kemarin
+    db_pass = os.getenv('DB_PASS', 'rahasiaku123') # Sesuaikan dengan password DB kemarin
 
     try:
         conn = psycopg2.connect(host=db_host, database=db_name, user=db_user, password=db_pass)
